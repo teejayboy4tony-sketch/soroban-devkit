@@ -121,3 +121,5 @@ pub fn inspect_parts(bytes: &[u8]) -> Result<InspectionResult, WasmError> {
 pub fn user_message_for_test(err: &WasmError) -> String {
     user_message(err)
 }
+
+// temporary freshness gate validation
